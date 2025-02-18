@@ -581,3 +581,7 @@ th, td {
   padding: 0.4rem;
   white-space: nowrap;
 }
+
+@import '~brand-openedx-zeit/paragon/overrides';
+@import '~brand-openedx-zeit/paragon/fonts';
+@import '~brand-openedx-zeit/paragon/variables';
