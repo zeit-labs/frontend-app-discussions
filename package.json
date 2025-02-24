@@ -35,7 +35,7 @@
   "dependencies": {
     "@edx/brand": "npm:@openedx/brand-openedx@^1.2.2",
     "@edx/frontend-component-header": "^5.0.2",
-    "brand-openedx-zeit": "git+https://github.com/zeit-labs/brand-openedx.git",
+    "brand-openedx-zeit": "github:zeit-labs/brand-openedx#new-styles-brand",
     "@edx/frontend-platform": "^7.1.0",
     "@edx/openedx-atlas": "^0.6.0",
     "@openedx/frontend-slot-footer": "^1.0.2",
