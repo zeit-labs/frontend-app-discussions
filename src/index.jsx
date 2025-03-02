@@ -19,10 +19,12 @@ import './index.scss';
 
 subscribe(APP_READY, () => {
   ReactDOM.render(
-    <AppProvider store={store}>
-      <Head />
-      <DiscussionsHome />
-    </AppProvider>,
+    <div className='mfe-discussion'>
+	    <AppProvider store={store}>
+		    <Head />
+		    <DiscussionsHome />
+	    </AppProvider>
+    </div>,
     document.getElementById('root'),
   );
 });
